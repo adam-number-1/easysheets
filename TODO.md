@@ -60,11 +60,13 @@ R1.1.1.3.01 Create Sheet properties object\
 R1.1.1.3.01.1 create fields for literals\
 R1.1.1.3.01.2 create sheet type enum\
 R1.1.1.3.01.3 create grid properties object\
-R1.1.1.3.01.3.1\
+R1.1.1.3.01.3.1 create literal fields\
 R1.1.1.3.01.4 create color Object\
-R1.1.1.3.01.4.1\
+R1.1.1.3.01.4.1 create literal fields\
 R1.1.1.3.01.5 create color style object\
-R1.1.1.3.01.5.1 \
+R1.1.1.3.01.5.1 create --union color object\
+R1.1.1.3.01.5.1.1 create literal fields\
+R1.1.1.3.01.5.2 create --union theme color enum\
 R1.1.1.3.01.6 create tab color syle object\
 R1.1.1.3.01.6.1\
 R1.1.1.3.01.7 create data source properties object\
@@ -81,9 +83,53 @@ R1.1.1.3.03.1 create the literal fields\
 R1.1.1.3.03.2 it would be great to implement all the index translations at this point\
 R1.1.1.3.04 create Conditional format rule object\
 R1.1.1.3.04.1 create the grid range object\
-R1.1.1.3.04.1.1\
+R1.1.1.3.04.1.1 create the literal fiedls and have the index etc translation functions created\
 R1.1.1.3.04.2 create the --union boolean rule object\
-R1.1.1.3.04.2.1\
+R1.1.1.3.04.2.1 create boolean condition object\
+R1.1.1.3.04.2.1.1 create condition type enum\
+R1.1.1.3.04.2.1.2 create conditional value object\
+R1.1.1.3.04.2.1.2.1 create --union relative date enum\
+R1.1.1.3.04.2.1.2.2 create --union literal field\
+R1.1.1.3.04.2.2 create cell format object\
+R1.1.1.3.04.2.2 create number format object\
+R1.1.1.3.04.2.2.1 create literal fields - understand pattern\
+R1.1.1.3.04.2.2.2 create number format type enum\
+R1.1.1.3.04.2.3 create Color object\
+R1.1.1.3.04.2.3.1 literal values - also understand the article about it\
+R1.1.1.3.04.2.4 create Colorstyle object\
+R1.1.1.3.04.2.4.1 create --union color object\
+R1.1.1.3.04.2.4.1.1 create the literals and understand the article\
+R1.1.1.3.04.2.4.2 create theme color type enum\
+R1.1.1.3.04.2.5 create Borders object\
+R1.1.1.3.04.2.5.1 create and fit the border object\
+R1.1.1.3.04.2.5.1.1 create literal fields\
+R1.1.1.3.04.2.5.1.2 create style enum\
+R1.1.1.3.04.2.5.1.3 create color object\
+R1.1.1.3.04.2.5.1.3.1 create literals and understand article\
+R1.1.1.3.04.2.5.1.4 create colorstyle object\
+R1.1.1.3.04.2.5.1.4.1 create --union color object\
+R1.1.1.3.04.2.5.1.4.1.1 create the literals and understand the article\
+R1.1.1.3.04.2.5.1.4.2 create --union theme color type enum\
+R1.1.1.3.04.2.2 create padding object\
+R1.1.1.3.04.2.2 create literal\
+R1.1.1.3.04.2.2 create horizontal align enum\
+R1.1.1.3.04.2.2 create vertical align enum\
+R1.1.1.3.04.2.2 create wrap strategy enum\
+R1.1.1.3.04.2.2 create text direction enum\
+R1.1.1.3.04.2.2 create text format object\
+R1.1.1.3.04.2.2 create literals\
+R1.1.1.3.04.2.2 create color object\
+R1.1.1.3.04.2.2 create literal fields\
+R1.1.1.3.04.2.2 create color style object\
+R1.1.1.3.04.2.2 create --union color object\
+R1.1.1.3.04.2.2 create literal fields\
+R1.1.1.3.04.2.2 create --union theme color literal\
+R1.1.1.3.04.2.2 creae link object\
+R1.1.1.3.04.2.2 create literal fields\
+R1.1.1.3.04.2.2 create hyperlinkdisplay type enum\
+R1.1.1.3.04.2.2 create text rotation object\
+R1.1.1.3.04.2.2 create --union literal fields\
+
 R1.1.1.3.04.3 create the --union gradient rule object\
 R1.1.1.3.04.3.1\
 R1.1.1.3.05  create filterview object\
